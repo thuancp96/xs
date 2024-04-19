@@ -1,0 +1,25 @@
+$main-red-color:#b30404;
+
+@import "header";
+@import "game-play";
+@import "KQXS";
+@import "common";
+
+body{
+  background: #354b60;
+}
+#top-notice{
+  background-color: #003663;
+  height:30px;
+  line-height: 30px;
+  color: #fff;
+}
+.white-bg{
+  background: #ecf0f1;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+#result-box{
+  padding: 0px 30px;
+}

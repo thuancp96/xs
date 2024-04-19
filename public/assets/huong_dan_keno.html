@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="vn" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Keno | Hướng dẫn chơi</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script src="https://keno.gamingon.net/public/js/jquery.min.js" type="text/javascript"></script>
+        <script src="https://keno.gamingon.net/public/js/modal.js" type="text/javascript"></script>
+        <script src="https://keno.gamingon.net/public/js/popper.min.js?v=1" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="https://keno.gamingon.net/public/css/keno.css?v=009">
+        <!--Keno-->
+    </head>
+    <body>
+        <link rel="stylesheet" type="text/css" href="https://keno.gamingon.net/public/css/rules.css">
+<div class="rulesWrap">
+    <div class="headTitle">
+        <h1 class="title">Cách chơi Keno</h1>
+    </div>
+    <div class="rulesContent">
+        <h4>Các dạng cược keno:</h4>
+        <ol class="listSummary">
+            <li>Tài/ Xỉu</li>
+            <li>Lẻ/ Chẵn</li>
+            <li>Rồng/ Hòa/ Hổ</li>
+            <li>Bé/ Giữa/ Lớn</li>
+            <li>Tài Lẻ/ Xỉu Lẻ/ Tài Chẵn/ Xỉu Chẵn</li>
+            <li>Kim/ Mộc/ Thủy/ Hỏa/ Thổ</li>
+        </ol>
+
+        <h4>Cách tính</h4>
+
+        <p>Kết quả Keno được tính dựa trên 20 quả bóng được rút ra ngẫu nhiên từ 80 quả bóng với các con số tương ứng.</p>
+        <ol class="listDetail">
+            <li><h5>Tài/ Xỉu</h5>
+                <ul>
+                    <li><strong>Tài:</strong> Tổng số của 20 quả bóng được rút ra >= 811.</li>
+                    <li><strong>Xỉu:</strong> Tổng số của 20 quả bóng được rút ra =< 810.</li>
+                </ul>
+                <p>Ví dụ: 20 quả bóng được rút ra là: 10, 5, 2, 14, 13, 16, 20, 21, 35, 50, 52, 39, 29, 70, 61, 11, 71, 8, 33, 73. Tổng 20 số này là 633. Chọn Xỉu sẽ thắng.</p>
+            </li>
+            <li>
+                <h5>Lẻ/ Chẵn</h5>
+                <ul>
+                    <li><strong>Lẻ:</strong> Tổng số của 20 quả bóng được rút ra là số lẻ.</li>
+                    <li><strong>Chẵn:</strong> Tổng số của 20 quả bóng được rút ra là số chẵn.</li>
+                </ul>
+                <p>Ví dụ: 20 quả bóng được rút ra là: 10, 5, 2, 14, 13, 16, 20, 21, 35, 50, 52, 39, 29, 70, 61, 11, 71, 8, 33, 73. Tổng 20 số này là 633. Chọn Lẻ sẽ thắng.</p>
+            </li>
+            <li>
+                <h5>Rồng/ Hòa/ Hổ</h5>
+                <ul>   
+                    <li><strong>Rồng:</strong> Là chữ số hàng chục của kết quả của 20 quả bóng được rút ra.</li>
+                    <li><strong>Hổ:</strong> Là chữ số hàng đơn vị của kết quả của 20 quả bóng được rút ra.</li>
+                    <li><strong>Hòa:</strong> Nếu Rồng = Hổ.</li>
+                </ul>
+                <p>Ví dụ: 20 quả bóng được rút ra là: 10, 5, 2, 14, 13, 16, 20, 21, 35, 50, 52, 39, 29, 70, 61, 11, 71, 8, 33, 79. Tổng 20 số này là 639. Ta so sánh chữ số hàng chục và hàng đơn vị của kết quả được rút ra, bên nào lớn hơn thì chiến thắng.</p>
+                <p>+ Rồng là chữ số hàng chục: 3 </p>
+                <p>+ Hổ là chữ số hàng đơn vị: 9 </p>
+                <p>+ Chọn Hổ sẽ thắng.</p>
+            </li>
+            <li>
+                <h5>Bé/ Giữa/ Lớn</h5>
+                <ul>
+                    <li><strong>Bé:</strong> Nếu trong 20 quả bóng được rút ra có hơn 10 con số trong khoản từ 1-40.</li>
+                    <li><strong>Giữa:</strong> Nếu trong 20 quả bóng được rút ra có 10 con số trong khoản 1-40 và 10 con số trong khoản 41-80.</li>
+                    <li><strong>Lớn:</strong> Nếu trong 20 quả bóng được rút ra có hơn 10 con số trong khoản 41-80.</li>
+                </ul>
+                <p>Ví dụ: 20 quả bóng được rút ra là: 10, 5, 2, 14, 13, 16, 20, 21, 35, 50, 52, 39, 29, 70, 61, 11, 71, 8, 33, 79. Ta có 1 4 con số trong khoản 1-40( 10, 5, 2, 14, 13, 16, 20, 21, 35, 39, 29, 11, 8, 33) và 6 số được rút ra trong khoản 41-80(50, 52, 70, 61, 71, 79). Chọn Trên sẽ thắng.</p>
+            </li>
+            <li>
+                <h5>Tài Lẻ/ Xỉu Lẻ/ Tài Chẵn/ Xỉu Chẵn</h5>
+                <ul>
+                    <li><strong>Tài Lẻ:</strong> Tổng 20 quả bóng được rút ra >=811 và là con số lẻ. Ví dụ: 811, 813, 815, …</li>
+                    <li><strong>Xỉu Lẻ:</strong> Tổng 20 quả bóng được rút ra =< 810 và là con số lẻ. Ví dụ: 789, 573, 639,…</li>
+                    <li><strong>Tài Chẵn:</strong>  Tổng 20 quả bóng được rút ra >= 811 và là con số chẵn. Ví dụ: 812, 814, 852…</li>
+                    <li><strong>Xỉu Chẵn:</strong>  Tổng 20 quả bóng được rút ra =< 810 và là con số chẵn. Ví dụ: 810, 798. 780,…</li>
+                </ul>
+                <p>Ví dụ: 20 quả bóng được rút ra là: 10, 5, 2, 14, 13, 16, 20, 21, 35, 50, 52, 39, 29, 70, 61, 11, 71, 8, 33, 79. Tổng 20 số này là 639. 639 nhỏ hơn 810 và là số lẻ. Chọn Xỉu Lẻ sẽ thắng.</p>
+            <li>
+                <h5>Kim/ Mộc/ Thủy/ Hỏa/ Thổ</h5>
+                <ul>
+                    <li><strong>Kim:</strong> Tổng 20 quả bóng được rút ra trong khoản 210-695.</li>
+                    <li><strong>Mộc:</strong> Tổng 20 quả bóng được rút ra trong khoản 696-763.</li>
+                    <li><strong>Thủy:</strong> Tổng 20 quả bóng được rút ra trong khoản 764-855.</li>
+                    <li><strong>Hỏa:</strong> Tổng 20 quả bóng được rút ra trong khoản 856-923.</li>
+            <li><strong>Thổ:</strong>  Tổng 20 quả bóng được rút ra trong khoản 924- 1410.</li>
+            </ul>
+            <p>Ví dụ: 20 quả bóng được rút ra là: 10, 5, 2, 14, 13, 16, 20, 21, 35, 50, 52, 39, 29, 70, 61, 11, 71, 8, 33, 79. Tổng 20 số này là 639. 639 trong khoản 210-695. Chọn Kim sẽ thắng.</p>
+            </li>
+        </ol>
+    </div>
+</div>    </body>
+</html>

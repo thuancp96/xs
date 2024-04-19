@@ -1,0 +1,73 @@
+ @foreach (GameHelpers::GetAllGame() as $key)
+<?php 
+								$haveData = false;
+								$betnumber = "";
+								$game_id = "";
+								$countrecord=0;
+								$totalpoint=0;
+								$totalpointkq=0;
+								$location_name="";
+							?>
+
+<div id="full-width-modal{{$key->game_code}}" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="full-width-modalLabel"
+    aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-full">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title" id="full-width-modalLabel">Chi tiết cược</h4>
+            </div>
+            <div class="modal-body">
+
+                <div class="table-rep-plugin">
+                    <div class="table-responsive">
+                        <table id="table_winlose" class="table table-bordered mails m-0 table-actions-bar table-striped dataTable no-footer">
+                            <thead>
+                                <tr>
+                                    <th>Đài</th>
+                                    <th>Thể loại</th>
+                                    <th>Số cược</th>
+                                    <th>Điểm</th>
+                                    <th>Kết quả</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @for($i=0;$i
+                                < count($requestdata);$i++) <?php $req=$ requestdata[$i]; $status=s tr_replace(
+                                    'overloadmoney', 'Vượt quá tiền hiện có',$req[ 'status']); $status=s tr_replace( 'maxbet',
+                                    'Mã vượt quá qua giới hạn',$status); if ($req[ 'is_actived']==f alse) $status='Hết hạn cược' ; ?>
+                                    @if (isset($req['choices'])) @for($j=0;$j
+                                    < count($req[ 'choices']);$j++) @if ($req[ 'game_code']==$ key->game_code)
+                                        <?php
+																			$haveData=true;
+																			$game_id=$req['game_name'];
+																			$ch = $req['choices'][$j];
+																			$betnumber.=$req['choices'][$j]['name'].',';
+																			$totalpoint+=$ch['point'];
+																			$totalpointkq+=($req['choices'][$j]['status']*$ch['point']);
+																			// if (!isset($ch)) continue;
+																		?>
+                                            <tr>
+                                                <td>Miền Bắc</td>
+                                                <td>{{$req['game_name']}}</td>
+                                                <td>{{$req['choices'][$j]['name']}}</td>
+                                                <td>{{number_format($ch['point'])}}</td>
+                                                <td>{{number_format($req['choices'][$j]['status']*$ch['point'])}}</td>
+                                            </tr>
+                                            @endif @endfor @endif @endfor
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Đóng</button>
+                <!-- <button type="button" class="btn btn-primary waves-effect waves-light">Save changes</button> -->
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+@endforeach

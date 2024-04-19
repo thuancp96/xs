@@ -1,0 +1,159 @@
+<?php
+				$kq = $rs['DB'];
+				// $kq1 = array_slice($kq,0,10);
+				// $kq2 = array_slice($kq,10,10);
+				// $time = explode(" ",$rs['updated_at'] . '');
+				$chan = 0;
+				$be = 0;
+				foreach($kq as $item){
+					if ($item <= 40)
+						$be++;
+					if ($item %2 == 0)
+						$chan++;
+				}
+			?>
+				<div class="recent-heading">
+					<h3 class="">Kết quả ngày <span class="badge badge-blue">{{$rs['updated_at']}}</span></h3>
+					<h6 class="">
+						
+					</h6>
+    
+				</div>
+
+				<div class="panel-body">
+					<div class="row" style="margin:2px;">
+						<div class="col-md-3 col-xs-3">
+							<span class="badge badge-blue">Kỳ {{$rs['8']}}</span>
+							<span class="badge badge-blue">Tổng {{$rs['1']}}</span>
+							<span class="badge badge-blue">Chẵn {{$chan}}</span>
+							<span class="badge badge-blue">Lẻ {{20-$chan}}</span>
+							<span class="badge badge-blue">Lớn {{20-$be}}</span>
+							<span class="badge badge-blue">Bé {{$be}}</span>
+						</div>
+						<div class="col-md-9 col-xs-9">
+							@foreach($rs['DB'] as $item)
+								<span class="badge badge-blue">{{$item}}</span>
+							@endforeach
+						</div>
+					</div>
+				</div>
+
+
+
+
+				<div id="game-play" class="panel panel-color panel-default panel-border panel-shadow panel-account">
+        <div class="keno_tructiep">
+        <div class="panel-body">
+			<div id="kq">
+                <table width="100%" class="tblTK tblKQ">
+                    <thead>
+                        <tr>
+                            <td>KỲ XỔ</td>
+                            <td>THỜI GIAN</td>
+                            <td >Tổng</td>
+                            <td >Chẵn/Lẻ</td>
+                            <td >Lớn/Bé</td>
+                            <td colspan="10">BỘ SỐ</td>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    <?php
+                        $kq = $rs['DB'];
+                        $kq1 = array_slice($kq,0,10);
+                        $kq2 = array_slice($kq,10,10);
+                        $time = explode(" ",$rs['updated_at'] . '');
+                        $chan = 0;
+                        $be = 0;
+                        foreach($kq as $item){
+                            if ($item <= 40)
+                                $be++;
+                            if ($item %2 == 0)
+                                $chan++;
+                        }
+                    ?>
+                        <tr>
+                            <td rowspan="2">{{$rs['8']}}<br></td>
+                            <td rowspan="2">
+                                <div>{{$time[0]}}</div>
+                                <div>{{$time[1]}}</div>
+                                
+                            </td>
+                            
+                            <td rowspan="2">{{$rs['1']}}<br></td>
+                            <td rowspan="2">
+                                <div>Chẵn {{$chan}}</div>
+                                <div>Lẻ {{20-$chan}}</div>
+                            </td>
+                            <td rowspan="2">
+                                <div>Lớn {{20-$be}}</div>
+                                <div>Bé {{$be}}</div>
+                            </td>
+
+                            @foreach($kq1 as $item)
+                                <td>{{$item}}</td>
+                            @endforeach
+                            <tr>
+                            @foreach($kq2 as $item)
+                                <td>{{$item}}</td>
+                            @endforeach
+                            </tr>
+
+                            
+
+                        </tr>
+
+                    </tbody>
+                </table>
+			</div>
+			</div>
+			</div>
+			</div>
+
+
+
+
+			<div class="game-header" style="width:800px !important; margin-bottom:15px; margin-left:30px">
+                                <div class="game-name">
+									<!-- <span>Quick Keno 10 phút quay thưởng</span></br> -->
+									
+									@if (isset($rs) && count($rs) < 1 )
+										<div class="kn-game-id">Chờ kết quả <span class="spinner"></span></div>
+									@else
+										<span>Kỳ trước: {{$rs['updated_at']}} - {{$rs['8']}}</span>
+										<?php
+											$kq = $rs['DB'];
+											// $kq1 = array_slice($kq,0,10);
+											// $kq2 = array_slice($kq,10,10);
+											// $time = explode(" ",$rs['updated_at'] . '');
+											$chan = 0;
+											$be = 0;
+											foreach($kq as $item){
+												if ($item <= 40)
+													$be++;
+												if ($item %2 == 0)
+													$chan++;
+											}
+										?>
+										<div class="kn-game-id">Chẵn {{$chan}} - Lẻ {{20-$chan}}</div>
+										<div class="kn-game-id">Lớn {{20-$be}} - Bé {{$be}}</div>
+									@endif
+                                </div>
+                                <div class="game-status">
+                                    <!-- <div class="time-betting box-timer" style=""> -->
+										<!-- @if (isset($rs) && count($rs) < 1 )
+											<span class="txt">Chờ kết quả </span><span class="countdown kn-timer">00:00</span><span class="spinner"></span>
+										@endif -->
+									<!-- </div> -->
+									
+									@if (isset($rs) && count($rs) > 1)
+										<div class="flipping-numbers box-result" style="display: block;">
+										@foreach($kq as $item)
+											<span class="number"><span>{{$item}}</span></span>
+										@endforeach
+										<div class="sum"><span>Tổng {{$rs['1']}}</span></div>
+										</div> 
+									@endif
+                                </div>
+                            </div>

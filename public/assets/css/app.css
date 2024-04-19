@@ -1,0 +1,216 @@
+header{height:100px}header .row{height:100px}header #login-box{float:right;width:100%}.navbar{margin-bottom:0px;border:none}.navbar .container{background:#b30404;text-transform:uppercase;font-weight:bold}.navbar .container a{color:#fff}.panel{border:1px solid #d7d7d7;margin-top:20px;margin-bottom:20px}.panel .panel-header{font-size:14px;text-transform:uppercase;margin:0px;padding:10px 10px;background:#f6f6f6;font-weight:bold;border-bottom:1px solid #d7d7d7}.panel .panel-inside{padding:15px}#game-play{margin-top:5px}#game-play .btn-confirm{display:block;margin:20px auto;border-radius:0px;text-transform:uppercase}#play-history table{margin-bottom:0px;font-size:13px}#play-history table .negative{color:red}#play-history table .positive{color:blue}.xoso-result{border:7px solid #b30404;margin:15px 0px;border-radius:5px}.xoso-result .control-box{margin:10px;text-align:center}.xoso-result .control-box input[type='text']{padding:4px;border-radius:5px;outline:none;border:1px solid #ccc;height:33px;display:inline-block;margin-right:7px}.xoso-result .control-box .btn{border:none;height:33px}.xoso-result .table-header{font-size:16px;text-transform:uppercase;text-align:center;font-weight:bold;color:#b30404}.xoso-result table tr td:first-child{font-weight:bold}.xoso-result table tr td .split:last-child{display:none}.s-control{display:inline-block;padding:5px;border-radius:2px;border:1px solid #eee}body{background:#354b60}#top-notice{background-color:#003663;height:39px;line-height:30px;color:#fff}.white-bg{background:#ecf0f1;padding-left:8px;padding-right:8px}#result-box{padding:0px 30px}
+body{
+    font-size: 12px !important;
+}
+input:read-only {
+    background-color: #ffffff !important;
+}
+#p_username
+{
+    font-weight: bold;
+    color:#d70a0a;
+    text-decoration: underline;
+    text-align: right;
+}
+#btn_logout
+{
+    color: #a1286a;
+    text-align: right;
+}
+.btn.active,
+.btn:active{
+    color:#d70a0a;
+}
+.support{
+    background: url('/assets/images/support.png') no-repeat;
+    bottom: -7px;
+    height: 116px;
+    position: absolute;
+    right: -54px;
+    width: 100px;
+}
+.footer_icon {
+    float: left;
+    /*margin-top: 17px;*/
+    text-align: center;
+    width: 118px;
+    height: 90px;
+    background: url('/assets/images/border_footer.png') no-repeat right;
+    cursor: pointer;
+}
+.footer_icon > i{
+    margin-top: 17px;
+}
+.footer_icon > p {
+    color: #fff;
+    font-size: 16px;
+    font-family:Calibri;
+    font-weight:600;
+}
+.footer_icon:hover > p {
+    color: #f9e507;
+}
+.footer_icon i{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+}
+.icon-gioithieu{
+    background: url('/assets/images/icon_info.png') no-repeat;
+}
+.icon-trachnhiem{
+    background: url('/assets/images/icon_trachnhiem.png') no-repeat;
+}
+.icon-trogiup{
+    background: url('/assets/images/icon_trogiup.png') no-repeat;
+}
+.icon-lienhe{
+    background: url('/assets/images/icon_lienhe.png') no-repeat;
+}
+.footer_icon:hover .icon-gioithieu{
+    background: url('/assets/images/icon_info_hover.png') no-repeat;
+}
+.footer_icon:hover .icon-trachnhiem{
+    background: url('/assets/images/icon_trachnhiem_hover.png') no-repeat;
+}
+.footer_icon:hover .icon-trogiup{
+    background: url('/assets/images/icon_trogiup_hover.png') no-repeat;
+}
+.footer_icon:hover .icon-lienhe{
+    background: url('/assets/images/icon_lienhe_hover.png') no-repeat;
+}
+.hotline {
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-family: "Eremitage";
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 32px;
+}
+.icon{
+    width: 65px;
+    height: 50px;
+    display: inline-block;
+}
+.icon-info:hover p{
+    color: #d32027;
+}
+.icon-heo{
+    background: url('/assets/images/icon_heo.png') no-repeat;
+}
+.icon-heo:hover{
+    background: url('/assets/images/icon_heo_hover.png') no-repeat;
+}
+.icon-dola{
+    background: url('/assets/images/icon_dola.png') no-repeat;
+}
+.icon-dola:hover{
+    background: url('/assets/images/icon_dola_hover.png') no-repeat;
+}
+.icon-moigioi{
+    background: url('/assets/images/icon_moigioi.png') no-repeat;
+}
+.icon-moigioi:hover{
+    background: url('/assets/images/icon_moigioi_hover.png') no-repeat;
+}
+.icon-totalmoney{
+    background: url('/assets/images/icon_moigioi.png') no-repeat;
+}
+.icon-totalmoney:hover{
+    background: url('/assets/images/icon_moigioi_hover.png') no-repeat;
+}
+.tiencuoc{
+    float: right;
+}
+.tc{
+    background: url('/assets/images/bg_number.png') no-repeat;
+    display: inline-block;
+    height: 47px;
+    width: 28px;
+    font-size: 35px;
+    font-family: 'Ericsson Capital';
+    font-style: normal;
+    text-align: center;
+}
+.tcdot {
+    font-size: 35px;
+    font-style: normal;
+}
+.footer {
+    background: url(/assets/images/bg_footer.png) repeat-x;
+    border-radius: 4px;
+    height: 90px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    position: relative;
+}
+.icon-info:before {
+    content: "" !important;
+}
+.custom-col3{
+    padding-right: 0px !important;
+    font-size: 12px !important;
+}
+.custom-col3 .panel{
+    margin-top:5px !important;
+}
+.number_block {
+    background: #f7ad7a !important;
+    margin-top:5px;
+}
+.number_content {
+    /* background: rgba(242,248,255,0.8); */
+    margin-top:5px;
+}
+#number_select{
+    word-wrap: break-word;      /* IE 5.5-7 */
+    white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+    white-space: pre-wrap;
+    color: red;
+}
+.input_game{
+    width: 48px !important;
+    text-align: center;
+}
+
+
+.rull_inner {
+    margin: 5px auto 20px;
+}
+.rull_subtitle {
+    font-size: 13px;
+    line-height: 20px;
+    background: url(/assets/images/rull_dotr.gif) no-repeat left 3px;
+    padding-left: 16px;
+    font-weight: bold;
+    color: #C00;
+    margin-top: 5px;
+}
+.rull_subinner {
+    margin: 0px 0px 10px 15px;
+}
+.mdotbbk {
+    background: url(/assets/images/rull_dotblack.gif) no-repeat left 3px;
+    padding-left: 16px;
+}
+
+.rull_subinner ul, .rull_inner ul{
+    list-style: none;
+}
+.mdotb {
+    background: url(/assets/images/rull_dotb.gif) no-repeat left 3px;
+    padding-left: 16px;
+}
+.clock{
+    color:#1CD06E;
+    display:inline;
+    font-size:12px;
+    padding:10px;
+}
+.centered-pills { text-align:center; }
+.centered-pills ul.nav-pills { display:inline-block; }
+.centered-pills li { display:inline; }
+.centered-pills a { float:left; }
+* html .centered-pills ul.nav-pills { display:inline; } /* IE6 */
+*+html .centered-pills ul.nav-pills { display:inline; } /* IE7 */

@@ -1,0 +1,43 @@
+.xoso-result{
+  border: 7px solid $main-red-color;
+  margin: 15px 0px;
+  border-radius: 5px;
+  .control-box{
+    margin: 10px;
+    text-align: center;
+    input[type='text']{
+      padding: 4px;
+      border-radius: 5px;
+      outline: none;
+      border: 1px solid #ccc;
+      height: 33px;
+      display: inline-block;
+      margin-right: 7px;;
+    }
+    .btn{
+      border: none;
+      height: 33px;
+    }
+  }
+  .table-header{
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color:$main-red-color;
+  }
+  table{
+    tr{
+      td{
+        &:first-child{
+          font-weight: bold;
+        }
+        .split{
+          &:last-child{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

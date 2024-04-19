@@ -1,0 +1,40 @@
+.panel{
+  border: 1px solid #d7d7d7;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  .panel-header{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 10px 10px;
+    background: #f6f6f6;
+    font-weight: bold;
+    border-bottom: 1px solid #d7d7d7;
+  }
+  .panel-inside{
+    padding: 15px;
+  }
+}
+
+#game-play {
+  margin-top: 5px;
+  .btn-confirm {
+    display: block;
+    margin: 20px auto;
+    border-radius: 0px;
+    text-transform: uppercase;
+  }
+}
+
+#play-history {
+  table {
+    margin-bottom: 0px;
+    font-size: 13px;
+    .negative {
+      color: red;
+    }
+    .positive {
+      color: blue;
+    }
+  }
+}

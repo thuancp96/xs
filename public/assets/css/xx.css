@@ -1,0 +1,175 @@
+body{
+    background: #333;
+}
+#wrapper{
+    width: 1100px;
+    margin: 0 auto;
+}
+.dice{
+    margin: 1px;
+}
+.no-padding{
+    padding: 0;
+}
+.dice-content{
+    float: left;
+    position: relative;
+    padding: 1px;
+}
+.dice-content p{
+    text-align: center;
+}
+.dice-group{
+    width: 100%;
+    border: 1px solid #5c7381;
+    background-color: #1c313e;
+    margin: 1px;
+    clear: both;
+    overflow: hidden;
+}
+.small-big{
+    width: 135px;
+}
+.small-big .dice-group{
+    padding-top: 8px;
+}
+.small .dice-group{
+    background: #826b07;
+}
+.big .dice-group{
+    background: #274357;
+}
+.small-big .dice-group p{
+    color: #fff;
+}
+.small{
+    font-size: 100%;
+}
+.small .dice-group p strong{
+    color: #fb3601;
+}
+.big .dice-group p strong{
+    color: #fefe01;
+}
+.even-odd{
+    width: 55px;
+}
+.even-odd .dice-group{
+    padding: 5px;
+}
+.even .dice-group{
+    background: #826b07;
+}
+.even-odd p{
+    color: #ff9901;
+}
+.even p{
+    line-height: 29px;
+    padding-bottom: 2px;
+}
+.odd p{
+    line-height: 39px;
+    padding-bottom: 1px;
+}
+.odd .dice-group{
+    background: #274357;
+}
+
+.double{
+    width: 210px;
+}
+.double .dice-group{
+    padding: 5px;
+}
+.double .dice-group .dice:first-child{
+    margin-bottom: 15px;
+}
+.double .dice-group .dice:last-child{
+    margin-top: 15px;
+}
+.tripple{
+    width: 120px;
+}
+.tripple .dice-group{
+    padding: 5px;
+}
+.tripple .dice-group:first-child{
+    padding-top: 3px;
+}
+.tripple .dice-group:last-child{
+    padding-bottom: 3px;
+}
+.tripple-random{
+    width: 90px;
+}
+.tripple-random .dice-group{
+    padding: 3px 10px;
+}
+.sum{
+    width: 80px;
+    /*background: #00a7d0;*/
+}
+.sum p{
+    color: #ff9901;
+}
+.sum:last-child{
+    width: 89px;
+}
+.sum p strong{
+    font-size: 35px;
+    line-height: 35px;
+}
+.couple-label{
+    margin-top: 1px;
+    width: 138px;
+}
+.couple-text{
+    background: #ec0000 none repeat scroll 0 0;
+    /*border: 1px solid #5c7381;*/
+    padding: 5px 1px;
+    height: 146px;
+}
+.couple-label p{
+    color: #fff;
+    text-align: center;
+}
+.couple-label i{
+    color: #fff;
+}
+.couple{
+    width: 66px;
+}
+.couple p{
+    margin: 0;
+    color: #fff;
+}
+.quadra{
+    width: 25%;
+}
+.quadra p{
+    color: #fff;
+}
+.quadra p strong{
+    font-size: 35px;
+    line-height: 35px;
+    color: #ff9901;
+}
+.single{
+    width: 16.6667%;
+}
+.single p{
+    float: left;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    padding-left: 16px;
+    color: #ff9901;
+}
+.single .dice{
+    width: 50px;
+    float: right;
+}
+.dice-group:hover{
+    cursor: pointer;
+    background-color: #8d7e1e;
+}

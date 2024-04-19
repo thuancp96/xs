@@ -1,0 +1,2383 @@
+.negative_number{
+    background-color: #C50000 !important; 
+    font-weight: bold !important;
+}
+
+.textmoney {
+    background-color: rgba(63, 134, 195, 1);
+    color: #F9F9F9;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 0px;
+    position: absolute;
+    float: left;
+}
+
+.textmoney .fa {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+@import url('smartbox.css');
+input:focus::-webkit-input-placeholder {
+    color: transparent !important;
+}
+
+input:focus::-moz-placeholder {
+    color: transparent !important;
+}
+
+input:focus:-moz-placeholder {
+    color: transparent !important;
+}
+
+.mt0 {
+    margin-top: 0 !important;
+}
+
+.mt5 {
+    margin-top: 5px !important;
+}
+
+.mt10 {
+    margin-top: 10px !important;
+}
+
+.mt20 {
+    margin-top: 20px !important;
+}
+
+.mr10 {
+    margin-right: 10px !important;
+}
+
+.mr20 {
+    margin-right: 20px !important;
+}
+
+.ml5 {
+    margin-left: 5px !important;
+}
+
+.ml10 {
+    margin-left: 10px !important;
+}
+
+.mr5 {
+    margin-right: 5px !important;
+}
+
+.mr10 {
+    margin-right: 10px !important;
+}
+
+.pr10 {
+    padding-right: 10px !important;
+}
+
+.pl10 {
+    padding-right: 10px !important;
+}
+
+.mr15 {
+    margin-right: 15px !important;
+}
+
+.mr20 {
+    margin-right: 20px !important;
+}
+
+.mr30 {
+    margin-right: 30px !important;
+}
+
+.mb5 {
+    margin-bottom: 5px;
+}
+
+.mb8 {
+    margin-bottom: 8px;
+}
+
+.mb9 {
+    margin-bottom: 9px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.nomargin {
+    margin: 0;
+}
+
+.nopadding {
+    padding: 0;
+}
+
+.padding5 {
+    padding: 5px;
+}
+
+.padding10 {
+    padding: 10px;
+}
+
+.padding15 {
+    padding: 15px;
+}
+
+.padding20 {
+    padding: 20px;
+}
+
+.noborder {
+    border: 0;
+}
+
+.height200 {
+    height: 200px;
+}
+
+.height300 {
+    height: 300px;
+}
+
+.width100p {
+    width: 100%;
+}
+
+.width55 {
+    width: 55px;
+    height: 36px;
+}
+
+.width70 {
+    width: 70px;
+    height: 36px;
+}
+
+.width80 {
+    width: 80px;
+}
+
+.width90 {
+    width: 90px;
+}
+
+.width100 {
+    width: 100px;
+}
+
+.width110 {
+    width: 110px;
+}
+
+.width120 {
+    width: 120px;
+}
+
+.width145 {
+    width: 145px;
+}
+
+.width300 {
+    width: 300px;
+}
+
+.maxwidth40 {
+    max-width: 40px;
+}
+
+.text-black {
+    color: #000;
+}
+
+.margin10 {
+    margin: 10px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.width55, .width70, .width145, .width80, .updown_icon, .setupbutton,
+.showpoint, .width90, .width110, .width120, .width100 {
+    float: left;
+    margin: 2px 4px;
+}
+
+.width50 {
+    width: 50px !important;
+}
+
+.width60 {
+    width: 60px;
+}
+
+.width65 {
+    width: 65px !important;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.text_left {
+    text-align: left !important;
+}
+
+.text_right {
+    text-align: right !important;
+}
+
+.tbuwidth70 {
+    width: 70px;
+}
+
+.table_user thead tr th {
+    font-weight: normal;
+    padding: 5px 2px;
+}
+
+.normalsize {
+    font-size: 14px;
+}
+
+.dropdown-menu-right, .dropdown-menu-left {
+    right: 0 !important;
+    box-shadow: 8px 8px 4px #888888;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.dropdown-menu a {
+    cursor: pointer;
+}
+
+.table thead tr {
+    background: #3f86c3;
+}
+
+.table thead tr th {
+    color: #FFF;
+    text-align: center;
+}
+
+.table tbody td {
+    text-align: center;
+}
+
+.table .fa {
+    font-size: 14px;
+}
+
+.table .fa-check {
+    color: #009900;
+}
+
+.table .fa-times, .table .fa-close {
+    color: #ff0000;
+}
+
+.rescue {
+    padding-top: 10px;
+}
+
+.select_all_game {
+    margin-top: 21px;
+}
+
+.select_all_game label {
+    cursor: pointer;
+}
+
+.btn_copy {
+    margin-top: 10px;
+}
+
+.textmoney {
+    background-color: rgba(63, 134, 195, 1);
+    color: #F9F9F9;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+.textmoney .fa {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.panel .lotto_board {
+    padding-top: 0px !important;
+}
+
+.panel .lotto_board .first_column {
+    width: 18px;
+    vertical-align: top;
+    padding-top: 0px;
+}
+
+.panel .lotto_board .first_row {
+    padding-left: 2px;
+}
+
+.panel .lotto_board .board_number {
+    vertical-align: top;
+}
+
+.panel .board_one {
+    width: 3%;
+    float: left;
+    padding: 1px;
+    text-align: center;
+}
+
+.panel .closed, .panel .closed_0, .panel .closed_1 {
+    background: #CCC !important;
+}
+
+.panel .closed .loto_price, .panel .closed_0 .loto_price, .panel .closed_1 .loto_price {
+    color: #000;
+}
+
+.panel .closed .badge-white, .panel .closed_0 .badge-white, .panel .closed_1 .badge-white {
+    background: #cb1515;
+    color: #FFF;
+}
+
+.panel .closed .badge-white:hover, .panel .closed_0 .badge-white:hover {
+    background: #0000ff;
+}
+
+.panel .closed_1 .badge-white:hover {
+    cursor: not-allow;
+}
+
+.panel .board_two {
+    width: 9.7%;
+    float: left;
+    padding: 1px;
+    position: relative;
+}
+
+.panel .board_two .number {
+    min-height: 65px;
+    background: #f2f8ff;
+    border: #ffebc3 1px solid;
+    float: left;
+    width: 100%;
+    padding: 3px;
+}
+
+.panel .board_two .number:hover {
+    background: #dfedfe;
+}
+
+.panel .board_two .cellactive:hover {
+    background: #fce0c6;
+}
+
+.panel .board_two .number .row .col-md-3, .panel .board_two .number .row .col-md-9,
+.panel .board_two .number .row .col-md-8, .panel .board_two .number .row .col-md-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.panel .board_two .number .row .price {
+    padding-top: 5px;
+}
+
+.panel .board_two .rowactive, .panel .board_two .cellactive {
+    background: #fef1e5;
+    border: #FF9C45 1px solid;
+}
+
+.panel .board_two .rowactive, .panel .board_two .closed_0, .panel .board_two .rowactive,
+.panel .board_two .closed_1 {
+    background: rgba(207, 173, 101, 0.8);
+}
+
+.lotto_board .badge {
+    font-size: 14px;
+    margin: 3px 0;
+    padding: 3px;
+}
+
+.panel .board_two .number .row {
+    margin: 0px;
+}
+
+.panel .board_two .number .info {
+    font-size: 11px;
+    text-align: center;
+    margin: 1px;
+}
+
+.panel .board_two .number .row .loto_icon, .loto_price {
+    text-align: center;
+}
+
+.loto_icon {
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 0.2;
+}
+
+.loto_icon:hover {
+    opacity: 0.8;
+}
+
+.panel .board_two .number .row .fa-plus-square {}
+
+.loto_price {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.updateprice {
+    color: #0000ff;
+    border-bottom: 0px !important;
+}
+
+.text_red {
+    color: #ff0000;
+}
+
+.text_blue {
+    color: #0000FF;
+    font-weight: bold;
+}
+
+.text_bold {
+    font-weight: bold;
+}
+
+.xahang_footer {
+    border-top: 0px;
+    padding-top: 0px;
+}
+
+.number_content .info {
+    cursor: pointer;
+}
+
+.number .badge-white {
+    cursor: pointer;
+}
+
+.number .badge-white:hover {
+    background: rgb(203, 21, 21);
+    color: #FFF;
+}
+
+.number_content .fa-spin {}
+
+.hidden {
+    display: none;
+}
+
+.background_orange {
+    background: #ffcbb2 !important;
+}
+
+.background_green {
+    background: #b4ffb2 !important;
+}
+
+.updown_icon {
+    width: 30px;
+    margin-top: 1px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.showpoint {
+    margin-top: 10px;
+    width: 110px;
+}
+
+.headboard {
+    border-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.headboard .selectboxit-container span, .headboard .selectboxit-container .selectboxit-options a {
+    height: 24px;
+    line-height: 24px;
+}
+
+.navibutton {
+    display: none;
+    float: left;
+    margin-left: 5px;
+}
+
+.navibutton .btn + .btn {
+    margin: 0 0 10px 0px;
+}
+
+.width145 .control-label, .width100 .control-label {
+    font-size: 14px;
+}
+
+.history_submit {
+    width: 45px;
+    float: left;
+    padding-top: 29px !important;
+}
+
+.btn-control-gaming {
+    margin-left: -10px;
+    margin-right: -30px;
+}
+
+.control-gaming {
+    margin-left: 0px;
+}
+
+.control-gaming .btn {}
+
+.control-gaming .datepicker {
+    height: 32px;
+}
+
+.control-gaming.
+.checksubmit, .profitsubmit {
+    padding-top: 23px !important;
+}
+
+.profitsubmit .btn {
+    padding: 7px 15px;
+}
+
+.checkorder .col-md-2, .checkorder .col-md-4, .checkorder .col-md-3,
+.report_setup .col-md-2, .report_setup .col-md-4, .report_setup .col-md-3,
+.report_setup .col-md-1 {
+    padding: 0 5px 10px 0;
+}
+
+.label_time {
+    float: left;
+    width: 100%;
+}
+
+.checkorder .col-sm-6, .report_setup .col-sm-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+}
+
+.checkorder .col-md-12, .report_setup .col-md-12 {
+    padding: 0px;
+}
+
+.minimal-right {
+    border-right: 0;
+    padding-right: 0;
+}
+
+.minimal-left {
+    border-left: 0;
+    padding-left: 0;
+}
+
+.betmoney_from, .winmoney_from::-webkit-input-placeholder {
+    text-align: right;
+}
+
+.betmoney_from, .winmoney_from :-moz-placeholder {
+    text-align: right;
+}
+
+.input-group-addon {
+    cursor: pointer;
+}
+
+.result_body {
+    padding: 0px !important;
+}
+
+.result_body .form-group {
+    margin-bottom: 5px;
+}
+
+.result_body .form-group-separator {
+    margin-bottom: 5px;
+    opacity: 0.5;
+}
+
+.result_body .level:hover input {
+    background: beige;
+}
+
+.result_body .unedit .level:hover input {
+    border-radius: 3px;
+}
+
+.result_body .level:hover label {
+    color: #0000ff;
+}
+
+.result_body .unedit input {
+    border: 0px;
+    background: transparent;
+}
+
+.result_header {
+    border-bottom: 0px;
+}
+
+.control-parameter {
+    padding: 0px;
+}
+
+.control-parameter .table > thead > tr > td, .control-parameter .table > tbody > tr > td,
+.control-parameter .table > tfood > tr > td, .control-parameter .table > thead > tr > th,
+.control-parameter .table > tbody > tr > th, .control-parameter .table > tfood > tr > th {
+    padding: 2px;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+.control-parameter .table > tbody > tr > td {
+    text-align: center;
+}
+
+.modal-full .modal-content {
+    padding: 10px !important;
+    min-height: 100%;
+}
+
+.parameter .form-control {
+    max-width: 80px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.parameter .riskForChange {
+    max-width: 100px;
+}
+
+.parameter .singleNr {
+    max-width: 85px;
+}
+
+.parameter .unedit input, .parameter .form-control[readonly] {
+    border: 0px;
+    background: transparent;
+}
+
+.parameter .lastchild {
+    min-width: 110px;
+}
+
+.report .table > thead > tr > td, .report .table > tbody > tr > td, .report .table > tfood > tr > td,
+.report .table > thead > tr > th, .report .table > tbody > tr > th, .report .table > tfood > tr > th {
+    vertical-align: middle;
+}
+
+.report .table > tfoot > tr > th {
+    text-align: center;
+}
+
+.table_member_report > tr > td:first-child, .table_report_memberwinlose > tr > td:first-child,
+.table_report > tr > td:first-child {
+    text-align: left;
+    color: #0000FF;
+}
+
+.table_report_gameid .childBetid > td:first-child {
+    text-align: left;
+    color: #0000FF;
+}
+
+.text_red {
+    color: #FF0000 !important;
+}
+
+.report .table > tbody > tr > td a {
+    text-decoration: none;
+    border-bottom: dashed 1px #0088cc;
+    cursor: pointer;
+    color: rgb(0, 37, 228);
+}
+
+.toast {
+    opacity: 1 !important;
+}
+
+#toast-container > div {
+    opacity: 1 !important;
+}
+
+.form-group label.error {
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(255, 0, 0);
+}
+
+.form-group .form-control.error {
+    border-color: rgba(204, 63, 68, 0.5);
+    background: rgba(255, 239, 239, 0.8);
+}
+
+.header_table_account label {
+    width: 155px;
+    padding-top: 5px;
+}
+
+.header_table_account .selectbox {
+    max-width: 120px;
+}
+
+.header_table_account .selectuser {
+    max-width: 250px;
+}
+
+.listuser {
+    max-width: 230px;
+}
+
+.recordperpage {
+    max-width: 280px;
+}
+
+.tfoot {
+    font-weight: bold;
+    color: #3f86c3;
+}
+
+.lotto_foot {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0 !important;
+}
+
+.modal_submit_result {
+    margin-bottom: -30px;
+}
+
+.modal_submit_result .footer {
+    padding-top: 10px;
+}
+
+.modal_submit_result .footer .btn-primary {
+    margin-left: -2px;
+}
+
+.modal_submit_result input {
+    text-align: center;
+    font-weight: bold;
+}
+
+.modal_submit_result #Jackpots {
+    color: #FF0000;
+}
+
+.open_schedule > thead > tr > th, .open_schedule > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.open_schedule > thead > tr > th {
+    font-weight: normal !important;
+}
+
+.open_schedule > tbody > .today_hightlight > td {
+    background: #C3B983 !important;
+}
+
+.loading_text {
+    color: #FFF;
+    position: absolute;
+    float: left;
+    width: 100%;
+    text-align: center;
+    top: 55%;
+}
+
+.negative_number {
+    background-color: #C50000;
+    font-weight: bold;
+}
+
+.game_list {
+    margin: 6px;
+}
+
+.game_list .block {
+    padding: 0px 5px 0 0;
+}
+
+.game_list .game_element {
+    padding: 15px 0px 2px 10px;
+    border-radius: 2px;
+    background-color: #EEF5FF;
+    border: 1px solid #5ea6e3;
+    margin: 6px 6px 0 0;
+}
+
+.game_list .form-control[readonly] {
+    border: 0px;
+    background: transparent;
+    font-weight: bold;
+}
+
+.game_list label {
+    padding: 0 5px;
+    vertical-align: -webkit-baseline-middle;
+    cursor: pointer;
+}
+
+.game_disabled {
+    background: rgba(238, 238, 238, 1) !important;
+    color: #EEE;
+}
+
+.game_disabled .fixlabel {
+    color: #2C2E35;
+}
+
+.game_disabled input, .game_disabled .iradio_square-orange {
+    border: 0px;
+    color: #EEE;
+    background: rgba(238, 238, 238, 1) !important;
+}
+
+#fallr-wrapper .btn {
+    padding: 6px 12px;
+    color: #FFF;
+    text-shadow: 0px 0 0;
+    margin-left: 15px;
+    border: 1px solid transparent;
+}
+
+.user_game_panel .collapsed {
+    padding-bottom: 15px !important;
+}
+
+.collapsed .panel-options {
+    display: none;
+}
+
+.user_game_panel .panel .btn {
+    margin-bottom: 0px;
+}
+
+.user_game_panel .panel .btn span {
+    padding-left: 5px;
+}
+
+.user_game_panel .panel-heading label {
+    padding-top: 1px;
+    cursor: pointer;
+}
+
+.user_game_panel .panel-color .panel-heading {
+    padding: 2px 2px 2px 3px !important;
+}
+
+.user_game_panel .panel {
+    padding: 0px;
+}
+
+.user_game_panel .panel .panel-heading {
+    margin: 0px;
+}
+
+.user_game_panel .panel .panel-body {
+    padding: 0px;
+}
+
+.user_game_panel .panel .panel-body .col-md-2 {
+    padding: 4px 4px 0 0;
+}
+
+.user_game_panel .panel .panel-body .play_rules {
+    border-radius: 0px;
+    background-color: #EEF5FF;
+    border: 1px solid #9DD0FC;
+    padding: 0 2px;
+    border-right: 0px;
+    border-left-color: rgba(157, 208, 252, 0.25);
+    width: 80px;
+}
+
+.user_game_panel .panel .panel-body .play_rules .bidType_check {
+    text-align: center;
+}
+
+.user_game_panel .panel .panel-body .play_rules .form-group {
+    margin: 2px 0 2px 0;
+}
+
+.user_game_panel .panel .panel-body .play_rules .form-group input {
+    text-align: center;
+    height: 20px;
+    padding: 0px;
+    font-size: 12px;
+    width: 30px;
+    margin-left: 7px;
+}
+
+.user_game_panel .panel .panel-body .play_rules .control-label {
+    text-align: right;
+    padding: 1px 0 0 0;
+    font-size: 11px;
+}
+
+.user_game_panel .panel .panel-body .play_rules label {
+    font-size: 11px;
+}
+
+.user_game_panel .panel .panel-body .play_rules .col-sm-7 {
+    padding: 0 2px;
+}
+
+.user_game_panel .panel .panel-body .play_rules .form-control[readonly] {
+    border: 0px;
+    background: transparent;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.user_game_panel .col-md-2 {
+    width: 14.2857142857%;
+}
+
+.panel-options .control-label {
+    text-align: right;
+}
+
+.panel-options input {
+    text-align: center;
+}
+
+.login_container {
+    width: 42%;
+    float: right;
+}
+
+.login_intro {
+    width: 58%;
+    float: left;
+    background: url("../images/android_intro.png");
+    height: 540px;
+    background-repeat: no-repeat;
+    background-position: 30px 30px;
+    position: relative;
+}
+
+.app_download {
+    position: absolute;
+    bottom: 50px;
+    height: 50px;
+    width: 230px;
+    right: 0px;
+}
+
+.app_download .app_icon {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 25px;
+}
+
+.app_download .app_icon:hover {
+    background: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.app_download .app_icon img {
+    margin: 11px 10px;
+    ;
+}
+
+.app_download .app_icon + .app_icon {
+    margin-left: 20px;
+}
+
+.login_container .form-control {
+    height: 38px;
+    border-radius: 2px;
+    padding-left: 10px;
+}
+
+body.signin {
+    background-color: #428bca;
+}
+
+.panel-signin, .panel-signup {
+    margin: 0 auto 0 auto;
+}
+
+.panel-signin {
+    width: 350px;
+    border-radius: 2px;
+}
+
+.panel-signup {
+    width: 600px;
+}
+
+.panel-signin .panel-body, .panel-signup .panel-body {
+    padding: 50px 20px 50px 20px;
+}
+
+.panel-signin .panel-footer, .panel-signup .panel-footer {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.panel-signin .text-center {
+    color: #636E7B;
+}
+
+.panel-signin label {
+    color: #4a535e;
+}
+
+.panel-signin .input-group label.error {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding-right: 12px;
+    font-size: 12px;
+    line-height: 40px;
+    color: #FF0000;
+    z-index: 10;
+}
+
+.panel-signin .errors-container {
+    color: #FFF;
+    background: #cc3f44;
+    padding: 10px;
+    margin: 0px 25px;
+    border-radius: 2px;
+    box-shadow: 4px 4px 8px #CBCBCB;
+}
+
+.dropdown-menu > li .red {
+    color: #FF0000;
+}
+
+.dropdown-menu > li .red:hover {
+    color: #0000ff;
+}
+
+.contractbutton, .game_button {
+    margin-left: -5px;
+}
+
+.MessageBoxMiddle .badge {
+    font-size: 14px;
+    line-height: 16px;
+    font-family: Arial;
+}
+
+#table_user .member_class .badge {
+    font-size: 12px;
+}
+
+#table_user .member_class .badge-info {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: rgba(64, 187, 234, 0.2);
+    color: #3333ff;
+}
+
+#table_user .member_class .badge-info:hover {
+    background-color: rgba(64, 187, 234, 1);
+    color: #FFF;
+}
+
+#table_user .member_class .badge-default {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgba(119, 119, 119, 0.1);
+    color: #FF0000;
+}
+
+#table_user .member_class .badge-default:hover {
+    background-color: rgba(119, 119, 119, 1);
+    color: #FFF;
+}
+
+#table_user > tfoot > tr > td {
+    text-align: center;
+}
+
+#table_user > tfoot .badge-info {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-right: -2px;
+}
+
+#table_user > tfoot .badge-default {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: -2px;
+}
+
+#table_user .username {
+    cursor: pointer;
+    border-bottom: dashed 1px #0088cc;
+}
+
+.breadcrumb .username, .breadcrumb .userhome {
+    cursor: pointer;
+}
+
+.user_percent_setup {
+    min-height: 200px;
+}
+
+.modal-title .badge {
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.modal-header .btn + .btn {
+    margin-right: 8px;
+    margin-bottom: 0;
+}
+
+.tablewidth120 {
+    width: 130px;
+}
+
+.head_parameters_table > tr > th {
+    font-weight: normal;
+}
+
+.body_parameters_table > tr > td {
+    text-align: center;
+}
+
+.body_parameters_table .form-control {
+    width: 90px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.user_parameters_setup .panel {
+    padding: 0px;
+    margin-bottom: 5px;
+}
+
+.table_parameter thead tr {
+    background: #3f86c3;
+}
+
+.table_parameter thead tr th {
+    color: #FFF;
+    text-align: center;
+    padding: 5px 2px;
+}
+
+.table_parameter tbody td {
+    text-align: center;
+}
+
+.table_parameter input:hover {
+    background: #ffffcc
+}
+
+.table_parameter .highlightinput, .user_percent_setup .highlightinput {
+    background: #ffffcc
+}
+
+.table_disable input {
+    background: transparent;
+    cursor: pointer;
+    border: 0px;
+}
+
+.table_parameter > tfoot > tr > td .btn {
+    margin: 5px;
+}
+
+.table_parameter > tfoot > tr > td {
+    text-align: center;
+}
+
+.play_box {
+    float: left;
+    padding: 2px 0px 0 0;
+}
+
+.account_panel .panel-heading {
+    border: 0px;
+    font-size: 14px;
+}
+
+.account_panel .second_div {
+    padding-left: 5px;
+}
+
+.user_game_panel .panel-body .btn {
+    margin-top: 10px;
+}
+
+.user_game_panel .panel-body .btn + .btn {
+    margin-left: 5px;
+}
+
+.user_game_panel {}
+
+.setupbutton .popover {
+    min-width: 650px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.setupbutton .popover .popover-content .col-md-12 {
+    padding: 0px;
+}
+
+.setupbutton .popover .popover-content .col-md-12 .panel {
+    padding: 0px;
+    font-size: 14px;
+    color: #000;
+}
+
+.setupbutton .popover .popover-content .col-md-12 .panel label {
+    cursor: pointer;
+}
+
+.setupbutton .popover .popover-content .col-md-12 .panel .col-sm-1,
+.setupbutton .popover .popover-content .col-md-12 .panel .col-sm-2,
+.setupbutton .popover .popover-content .col-md-12 .panel .col-sm-3,
+.setupbutton .popover .popover-content .col-md-12 .panel .col-sm-4 {
+    padding: 2px;
+}
+
+.setupbutton .popover .popover-content .col-md-12 .panel .panel-footer {
+    border-top: 0px;
+    background: transparent;
+    padding: 10px 0 0 0;
+}
+
+.setupbutton .popover .popover-content .col-md-12 .panel .row {
+    margin-left: -2px;
+    margin-right: -2px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.setupbutton .popover .popover-content .col-md-12 .panel .row .form-group {
+    margin: 0px;
+}
+
+.panel_transparent {
+    color: transparent;
+}
+
+.panel_transparent input[type="radio"] {
+    opacity: 0;
+}
+
+.bid_settingup .col-md-12 {
+    padding: 0 20px;
+}
+
+.lastbox {
+    border-right: 1px solid #9DD0FC !important;
+}
+
+.firstbox {
+    border-left-color: rgba(157, 208, 252, 1) !important;
+    width: 160px !important;
+}
+
+.icon_copy_row, .pop_icon_copy_row {
+    padding-right: 5px;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.icon_copy_row:hover, .pop_icon_copy_row:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btn-copy {
+    color: #FFF;
+    background-color: transparent;
+    font-size: 18px !important;
+}
+
+.btn-copy i {
+    padding: 0px !important;
+    opacity: 0.6;
+}
+
+.btn-copy i:hover, .btn-copy:hover, .btn-copy:focus {
+    color: #FFF;
+    opacity: 1;
+}
+
+.board_setting div {
+    padding-left: 5px;
+}
+
+.board_setting .badge {
+    font-size: 12px;
+    padding: 0px;
+}
+
+.board_setting .badge-red {
+    padding: 4px;
+}
+
+.board_setting .badge-white {
+    -webkit-box-shadow: 0px 0px 0px 1px #FFFFFF;
+    -moz-box-shadow: 0px 0px 0px 1px #FFFFFF;
+    box-shadow: 0px 0px 0px 1px #FFFFFF;
+}
+
+@media (min-width: 768px) {
+    .board_setting .col-md-2 {
+        padding-bottom: 5px;
+        width: 23%;
+        float: left;
+    }
+
+    .board_setting .col-md-10 {
+        padding-bottom: 5px;
+        width: 70%;
+        float: left;
+    }
+
+    .board_setting .col-md-6 {
+        padding-bottom: 5px;
+        width: 100%;
+        float: left;
+    }
+}
+
+@media (min-width: 1280px) {
+    .board_setting .col-md-2 {
+        padding-bottom: 5px;
+        width: 16%;
+        float: left;
+    }
+
+    .board_setting .col-md-3 {
+        padding-bottom: 5px;
+        width: 18%;
+        float: left;
+    }
+
+    .board_setting .col-md-10 {
+        padding-bottom: 5px;
+        width: 84%;
+        float: left;
+    }
+
+    .board_setting .col-md-6 {
+        padding-bottom: 5px;
+        width: 52%;
+        float: left;
+    }
+}
+
+@media (min-width: 1920px) {
+    .board_setting .col-md-2 {
+        padding-bottom: 5px;
+        width: 10%;
+        float: left;
+    }
+
+    .board_setting .col-md-3 {
+        padding-bottom: 5px;
+        width: 12%;
+        float: left;
+    }
+
+    .board_setting .col-md-4 {
+        padding-bottom: 5px;
+        width: 3%;
+        float: left;
+    }
+
+    .board_setting .col-md-10 {
+        padding-bottom: 5px;
+        width: 90%;
+        float: left;
+    }
+
+    .board_setting .col-md-6 {
+        padding-bottom: 5px;
+        width: 57%;
+        float: left;
+    }
+}
+
+.linebutton {
+    position: relative;
+    float: left;
+    margin-top: -8px;
+    font-size: 12px;
+    width: 690px;
+}
+
+.linebutton label {}
+
+.setupbutton .btn + .btn {
+    margin-left: 0px;
+}
+
+.linebutton .label:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.linebutton .label-turquoise:hover {
+    background-color: #009886;
+}
+
+.label.label-turquoise {
+    box-shadow: 0px 0px 0px 1px #009B89;
+}
+
+.linebutton4d {
+    margin-top: 2px;
+    position: relative;
+    float: left;
+    margin-left: 13px;
+}
+
+.popover_boardnumber {
+    max-width: 450px !important;
+}
+
+.popover_boardnumber .popover-board {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.popover_boardnumber .popover-board .panel {
+    padding: 0px;
+}
+
+.popover_boardnumber .popover-board .col10 {
+    width: 10%;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    display: table;
+    color: #FF0000;
+    text-align: center;
+    font-size: 13px;
+}
+
+.popover_boardnumber .popover-board .col10:hover {
+    background: rgb(199, 199, 143);
+    cursor: pointer;
+}
+
+.popover_boardnumber .popover-board .col10 span {
+    font-weight: normal;
+    color: #000000;
+}
+
+.popover_boardnumber .popover-title {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #2C77B3;
+}
+
+.childUserName_href, .childBetid_href, .memberAmount_wl_href, .memberAmount_mwl_href,
+.memberAmount_m_href, .childUserName_cancelled_href, .memberAmount_cancelled_href,
+.childUserName_outstanding_href, .memberAmount_outstanding_href {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.table > tfoot > tr > td {
+    font-weight: bold;
+}
+
+.fix-width210 {
+    width: 230px;
+    float: left;
+    padding: 5px 0 10px 0;
+}
+
+.highlight {
+    background: #00FFD8 !important;
+}
+
+.report_setup .buttondate {
+    padding-top: 10px;
+}
+
+.btn-radius {
+    border-radius: 10px
+}
+
+.contractbutton .btn + .btn {
+    margin-left: 2px
+}
+
+.contractbutton .btn {
+    padding: 2px 8px;
+    font-size: 13px;
+}
+
+.board_setting div {
+    float: left;
+}
+
+.board_setting .sper {
+    width: 1px;
+    height: 25px;
+    float: left;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.board_setting .dropdown-menu {
+    min-width: 130px;
+}
+
+.viewunit .btn {
+    padding: 1px 7px;
+}
+
+.game_selector {
+    float: left;
+    min-width: 450px;
+}
+
+.notopened {
+    background: rgba(139, 139, 139, 0.4) !important;
+    border: #C3C3C3 1px solid !important;
+}
+
+.tooltip.in {
+    opacity: 1;
+}
+
+.form-history {}
+
+.btn-unlock {
+    background: transparent;
+}
+
+.table > tbody > tr.account_suspended > td {
+    background: rgba(255, 202, 183, 0.69);
+}
+
+.table > tbody > tr.account_closed > td {
+    background: rgba(179, 179, 179, 0.69) !important;
+}
+
+.btn-unlock {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.datelabel {
+    padding-top: 6px;
+}
+
+.selector label {
+    padding-right: 10px
+}
+
+.selector .btn.btn-icon i {
+    padding: 3px;
+}
+
+.selector .btn + .btn {
+    margin-right: 5px;
+}
+
+.table > tbody > tr .reportbygameid {
+    text-align: left;
+    background: rgb(218, 218, 218) !important;
+    font-weight: bold;
+    color: #2C2E35;
+}
+
+.fa-map-marker {
+    opacity: 0.2;
+    font-size: 110%;
+}
+
+.fa-map-marker:hover {
+    opacity: 0.8;
+    color: #0000FF;
+    cursor: pointer;
+}
+
+#lotto_table .fa {
+    font-size: 14px;
+    margin-right: 8px;
+    color: #FFF;
+}
+
+#lotto_table .btn-white .fa {
+    color: #646464;
+}
+
+.summary > td, .table_report_gameid > .summary:nth-child(odd) > td,
+.table_report_gameid > .summary:hover > td {
+    font-weight: bold;
+    text-align: right !important;
+    padding-right: 10px !important;
+}
+
+.game_summary > td, .table_report_gameid > .game_summary:nth-child(odd) > td,
+.table_report_gameid > .game_summary:hover > td, .table_report > .game_summary:nth-child(odd) > td,
+.table_report > .game_summary:hover > td {
+    text-align: right !important;
+    padding-right: 10px !important;
+    background: rgb(255, 225, 170);
+    font-weight: bold !important;
+}
+
+.table > tfoot > tr > td {
+    background: rgb(255, 225, 170);
+}
+
+.panel-message p {
+    color: rgb(255, 119, 0);
+    font-weight: bold;
+}
+
+.outstanding .btn {
+    margin-bottom: 0px;
+}
+
+.panel-history .panel-heading {
+    font-size: 12px;
+}
+
+.panel-history .panel-heading div {
+    float: left;
+}
+
+.panel-history .panel-heading div + div {
+    margin-left: 10px;
+}
+
+.panel-history .panel-heading .btn {
+    margin-top: 5px;
+}
+
+.panel-history .panel-heading .col-sm-4, .panel-history .panel-heading .col-sm-2,
+.panel-history .panel-heading .col-sm-5, .panel-history .panel-heading .col-sm-3 {
+    margin-top: 8px;
+}
+
+.panel-history .panel-heading .col {
+    padding: 0px;
+}
+
+.nav.nav-tabs > .history > a {
+    background: rgb(63, 134, 195);
+    color: #FFF;
+}
+
+.nav.nav-tabs > .history.active > a {
+    color: #000;
+}
+
+.nav.nav-tabs > .history.active > a:hover {
+    background: #FFF;
+    color: #666;
+}
+
+.nav.nav-tabs > .history > a:hover {
+    color: #FFF;
+    background-color: #146EBB;
+}
+
+.history-result .nav.nav-tabs + .tab-content {
+    padding: 10px 0px 0px 0px;
+}
+
+.history-result .tab-pane .content-state {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.history-result .table .fa {
+    font-size: 18px;
+}
+
+.history-result .table .fa-lock {
+    color: #FF0000;
+}
+
+.history-result .table .fa-unlock {
+    color: #0000FF;
+}
+
+.location .row {
+    margin-bottom: 5px;
+}
+
+.green {
+    background: rgb(63, 134, 195) !important;
+    color: #FFF !important;
+}
+
+.panel-announcement .panel-footer {
+    padding: 0px;
+    background: transparent;
+    border-top: 0px;
+}
+
+.contentPlan textarea {
+    height: 150px;
+}
+
+.panel-announcement .btn.btn-icon i {
+    padding: 5px 3px;
+}
+
+.loginusername .badge {
+    margin-top: 5px;
+    font-size: 12px !important;
+}
+
+.user-info-navbar .marquee {
+    margin: 5px auto;
+    margin-top: 12px;
+    position: absolute;
+    background: rgba(154, 208, 255, 0.38);
+    padding: 2px 10px;
+    border: 1px solid rgba(142, 203, 255, 0);
+    border-radius: 4px;
+    left: 55px;
+    right: 350px;
+    color: #F9F9F9;
+    overflow: hidden;
+    box-shadow: 1px 1px 2px #0D66B3;
+}
+
+.news-body p {
+    color: #373737;
+}
+
+.news_node {}
+
+.news_node:hover {
+    cursor: pointer;
+}
+
+.panel-lilove .panel-heading {
+    font-size: 12px;
+}
+
+.panel-lilove .panel-heading div {
+    float: left;
+}
+
+.panel-lilove .panel-heading .form-group {
+    margin: 0px;
+}
+
+.panel-lilove .panel-heading .form-group .col-sm-5 {
+    margin-top: 0px;
+}
+
+.panel-lilove .panel-heading .form-group .col-sm-5, .panel-lilove .panel-heading .form-group .col-sm-7 {
+    padding: 0px 2px;
+}
+
+.table-lolive .hightlight td:first-child, .table-lolive .hightlight td:last-child {
+    font-weight: bold;
+    color: rgb(0, 23, 255);
+}
+
+.panel-lolivecontrol .row + .row {
+    margin-top: 20px;
+}
+
+.panel-lolivecontrol .highlight {
+    color: #000 !important;
+}
+
+.panel-lolivecontrol .panel-heading p {
+    padding-left: -5px;
+    padding-right: -5px;
+}
+
+.disabled_popup_body .bg-danger {
+    top: 50%;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    box-shadow: 4px 4px 8px #FFF;
+    height: 100px;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.parameter .unedit .text_left .icheckbox_square-red + .icheckbox_square-red {
+    margin-top: 5px;
+}
+
+.useronline .badge:hover {
+    cursor: pointer;
+}
+
+.useronline {
+    cursor: pointer;
+}
+
+.useronline span {}
+
+.useronline .fa-circle {
+    color: #66cc00;
+}
+
+.changepassword {
+    width: 500px;
+}
+
+.changepassword .linecons-eye {
+    opacity: 0.5;
+}
+
+.changepassword .input-group-addon:hover .linecons-eye {
+    color: #FF0000;
+    opacity: 1;
+}
+
+#form_set_password .linecons-eye {
+    opacity: 0.5;
+}
+
+#form_set_password .input-group-addon:hover .linecons-eye {
+    color: #FF0000;
+    opacity: 1;
+}
+
+.not_listing {
+    list-style: none;
+    color: #616161;
+}
+
+.password-ok {
+    display: none;
+}
+
+.password-requirements {
+    position: relative;
+    right: -510px;
+    top: -45px;
+    opacity: 0;
+    max-height: 0;
+    display: block;
+    -webkit-transition: all .25s ease-in-out 0;
+    -ms-transition: all .25s ease-in-out 0;
+    transition: all .25s ease-in-out 0;
+    text-align: left
+}
+
+.password-requirements ul {
+    font-size: 13px
+}
+
+.password-requirements ul:first-child {
+    margin-right: 15px
+}
+
+.password-requirements ul li {
+    -webkit-transition: all .25s ease-in-out 0;
+    -ms-transition: all .25s ease-in-out 0;
+    transition: all .25s ease-in-out 0
+}
+
+.password-requirements ul li:before {
+    position: relative;
+    top: -1px;
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-left: 6px;
+    margin-right: 10px;
+    border-radius: 8px;
+    background: #3F86C3
+}
+
+.password-requirements ul li.completed {
+    opacity: .5
+}
+
+.password-requirements ul li.completed:before {
+    background: #c9c9c9
+}
+
+.password-requirements.open {
+    opacity: 1;
+}
+
+.member_betting_details sub {
+    color: #FF0000;
+}
+
+.buttondate_wl, .buttondate_mwl, .btn_submit_outstanding, .buttondate_can {
+    margin-top: 4px;
+}
+
+.input_array_number .input-group {
+    margin-top: 2px;
+}
+
+.input_array_number .input-group-addon {
+    color: #FF0000;
+}
+
+.usertable .fa-caret-right {
+    color: #339900;
+    cursor: pointer;
+    opacity: 0.8;
+    padding-right: 5px;
+}
+
+.usertable .fa-caret-right:hover {
+    opacity: 1;
+}
+
+.usertable .fa-caret-down {
+    color: #FF0000;
+    cursor: pointer;
+    opacity: 0.8;
+    padding-right: 5px;
+}
+
+.usertable .fa-caret-down:hover {
+    opacity: 1;
+}
+
+.usertable .fa-location-arrow {
+    cursor: pointer;
+    opacity: 0.8;
+    color: #3F86C3;
+}
+
+.usertable .fa-location-arrow:hover {
+    opacity: 1;
+}
+
+.usertable .left10 {
+    padding-left: 10px;
+}
+
+.usertable .left20 {
+    padding-left: 20px;
+}
+
+.usertable .left30 {
+    padding-left: 30px;
+}
+
+.usertable .left40 {
+    padding-left: 40px;
+}
+
+.usertable .left50 {
+    padding-left: 50px;
+}
+
+.usertable .left60 {
+    padding-left: 60px;
+}
+
+.table-popover > tr > td {
+    text-align: left;
+    width: 50%;
+    padding-bottom: 5px;
+}
+
+.popover_username {
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: dashed 1px #0088cc;
+}
+
+.newaccount {}
+
+.create_account .col-sm-4 {
+    padding: 0px;
+    margin-top: 5px;
+}
+
+.create_account .col-sm-8 {
+    padding: 0px;
+}
+
+.create_account .form-group {
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.panelform {
+    padding: 0px 15px;
+}
+
+.navigation {
+    padding: 5px 15px 0px 15px;
+}
+
+.navigation .panel-body .row {
+    margin-bottom: 5px;
+    margin-left: -5px;
+}
+
+.navigation .panel-body .contractbutton {
+    float: left;
+    margin-left: 5px;
+}
+
+.history .btn + .btn {
+    margin-left: 0px;
+}
+
+.board_setting .badge-white {
+    color: #0000FF;
+}
+
+.editableform .row {
+    padding: 5px 10px;
+}
+
+.editable_popup {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 0px;
+}
+
+.profiles .fa-check-square {
+    color: #00960D;
+    font-size: 20px;
+}
+
+.table-result > tbody > tr:first-child {
+    color: #FF0000;
+}
+
+.table-miennam > tbody > tr:last-child {
+    color: #FF0000;
+}
+
+.table-result {
+    font-weight: bold;
+}
+
+.tt-dataset-copy-from {
+    font-size: 11px;
+    margin-left: -10px;
+    margin-right: -10px;
+    color: #666;
+}
+
+.usertable .fa-lock, .subaccount_body .fa-lock {
+    color: #0000FF;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.head_parameters_table .fa-copy {
+    padding-left: 15px;
+    opacity: 0.8;
+}
+
+.head_parameters_table .fa-copy:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.table_view_bidding .fa {
+    float: left;
+}
+
+.table_view_bidding .fa-check-square-o {
+    color: #0000FF;
+}
+
+.table_view_bidding .fa-square-o {
+    color: #FF0000;
+}
+
+.table_view_bidding > tbody > tr > td {
+    width: 100px;
+    padding: 2px 0 2px 10px;
+}
+
+.panel-flat .panel-heading label {
+    font-size: 12px;
+}
+
+.table_view_bidding + .table_view_bidding {
+    margin-top: 5px;
+}
+
+.table_view_bidding > thead > tr:last-child > th {
+    background: rgb(218, 218, 218) !important;
+    color: #000;
+}
+
+.lolive .board_two .number {
+    border: rgba(255, 97, 0, 0.34) 1px solid;
+    background: #ffddd3;
+}
+
+.lolive .board_two .cellactive {
+    border: rgba(51, 153, 0, 0.8) 1px solid;
+    background: #cffab9
+}
+
+.accountclass {
+    color: #0000FF;
+}
+
+.reporthightlight {
+    background: rgba(245, 242, 214, 0.5) !important;
+}
+
+.modal_on_modal {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 10;
+}
+
+.parameter_rules .col-md-1, .parameter_rules .col-md-2, .parameter_rules .col-md-3,
+.parameter_rules_pricepoints .col-md-1, .parameter_rules_pricepoints .col-md-2,
+.parameter_rules_pricepoints .col-md-3 {
+    padding: 0px 0px 0px 3px;
+}
+
+.parameter_rules .col-md-3:first-child, .parameter_rules_pricepoints .col-md-3:first-child {
+    padding-left: 10px;
+}
+
+.parameter_rules .row:first-child .col-md-1 .form-group .fa, .parameter_rules_pricepoints .row:first-child .col-md-1 .form-group .fa {
+    padding-top: 24px;
+    font-size: 15px;
+}
+
+.parameter_rules .row .col-md-1 .form-group .fa, .parameter_rules_pricepoints .row .col-md-1 .form-group .fa {
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.parameter_rules .col-md-1 .form-group .fa-plus-circle, .parameter_rules_pricepoints .col-md-1 .form-group .fa-plus-circle {
+    color: #00cc00;
+    padding-left: 5px;
+    opacity: 0.5;
+}
+
+.parameter_rules .col-md-1 .form-group .fa-plus-circle:hover, .parameter_rules_pricepoints .col-md-1 .form-group .fa-plus-circle:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.parameter_rules .col-md-1 .form-group .fa-minus-circle, .parameter_rules_pricepoints .col-md-1 .form-group .fa-minus-circle {
+    color: #ff0000;
+    opacity: 0.5;
+}
+
+.parameter_rules .col-md-1 .form-group .fa-minus-circle:hover, .parameter_rules_pricepoints .col-md-1 .form-group .fa-minus-circle:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.parameter_rules .pricePoint, .parameter_rules_pricepoints .pricePoint {
+    text-align: center;
+}
+
+.gamesetting, .gamesettingpricepoints, .gamesettingPAV {
+    text-decoration: none;
+    border-bottom: dashed 1px #0088cc;
+    cursor: pointer;
+}
+
+.notvalid {
+    background: rgb(255, 116, 116);
+    border-color: red;
+    color: #FFF;
+}
+
+div.datepicker table tr td:last-child, div.datepicker table tr td:nth-last-child(2) {
+    color: #FF0000;
+}
+
+div.datepicker table tr td:last-child.disabled, div.datepicker table tr td:nth-last-child(2).disabled {
+    color: #990000;
+}
+
+.table_report_foot sub, .table_report sub, .table_report_gameid sub {
+    margin-left: 6px;
+    color: rgb(218, 2, 2);
+    font-size: 75%;
+    font-weight: bold;
+}
+
+.separator {
+    height: 1px;
+    background: #eee;
+    margin-bottom: 15px;
+}
+
+.panel-heading .bg-danger {
+    margin-left: -5px;
+    margin-right: -5px;
+    font-size: 14px;
+}
+
+.table-viewtemplate tbody tr td:nth-child(n + 1) {
+    min-width: 80px;
+    padding: 4px;
+}
+
+.btn-switch-normal, .btn-submit-search, .btn-switch-advance {
+    padding: 3px 5px 4px 5px;
+    margin-left: 10px;
+}
+
+.account_pagination .col-sm-6, .account_pagination_sort .col-sm-6 {
+    padding: 0px;
+}
+
+.account_pagination, .account_pagination_sort {
+    font-size: 14px;
+    padding-right: 0px;
+    max-width: 200px;
+}
+
+.account_pagination .pagination, .account_pagination_sort .pagination {
+    margin: 0px !important;
+}
+
+.account_pagination label, .account_pagination_sort label {
+    padding-top: 5px;
+    padding: 2px 5px 0 0 !important;
+}
+
+.highlight0 {
+    background: transparent !important;
+}
+
+.highlight1 {
+    background: #fed7d7 !important;
+}
+
+.highlight2 {
+    background: #D0B3CE !important;
+}
+
+.highlight3 {
+    background: #FFCF4C !important;
+}
+
+.highlight4 {
+    background: #c5ccff !important;
+}
+
+.highlight5 {
+    background: #c5e6ff !important;
+}
+
+.highlight6 {
+    background: #c5f6ff !important;
+}
+
+.highlight7 {
+    background: #c5fff2 !important;
+}
+
+.highlight8 {
+    background: #c5ffd5 !important;
+}
+
+.highlight9 {
+    background: #d4ffc5 !important;
+}
+
+.highlight10 {
+    background: #edffc5 !important;
+}
+
+.highlight11 {
+    background: #fffcc5 !important;
+}
+
+.highlight12 {
+    background: #ffe0c5 !important;
+}
+
+.highlight13 {
+    background: #ffc5c5 !important;
+}
+
+.copy-parameter {
+    float: right;
+    margin-right: 5px;
+    opacity: 0.7;
+    color: #0E62C7;
+}
+
+.copy-parameter:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.sharedMaxPointPerNr[readonly], .sharedMaxPointPerNr[readonly]:hover {
+    background: transparent;
+    border: transparent;
+}
+
+.changePoint .selectboxit-container .selectboxit-options {
+    width: 150px;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: yellow;
+}
+
